@@ -11,22 +11,22 @@ export default function Demo() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Demo Prova di cambio pagina
+          Casa
         </h1>
 
         <p className={styles.description}>
-          Prova di cambio pagina 
+          Prova di pagina interna
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Titolo 3 &rarr;</h3>
-            <p>Card</p>
+          <a href="/" className={styles.card}>
+            <h3>Torna indietro &rarr;</h3>
+            <p>Card - clicca qui per tornare indietro</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Titolo 4 &rarr;</h3>
-            <p>Card</p>
+          <a href="/" className={styles.card}>
+            <h3>Torna indietro &rarr;</h3>
+            <p>Card - clicca qui per tornare indietro</p>
           </a>
 
  

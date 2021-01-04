@@ -21,13 +21,13 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="/demo" className={styles.card}>
-            <h3>Titolo 1 &rarr;</h3>
+            <h3>Esempio pagina 2 &rarr;</h3>
             <p>Card - clicca qui per pagina 2</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Titolo 2 &rarr;</h3>
-            <p>Card</p>
+            <h3>Tutorial next js &rarr;</h3>
+            <p>Card - clicca qui per andare al tutorial di nextjs</p>
           </a>
 
  
