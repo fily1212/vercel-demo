@@ -1,32 +1,31 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Demo() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sondaggio di prova</title>
+        <title>Demo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sondaggio di prova!
+          Demo Prova di cambio pagina
         </h1>
 
         <p className={styles.description}>
-          Prova di descrizione
-          <code className={styles.code}>pages/index.js</code>
+          Prova di cambio pagina 
         </p>
 
         <div className={styles.grid}>
-          <a href="/demo" className={styles.card}>
-            <h3>Titolo 1 &rarr;</h3>
-            <p>Card - clicca qui per pagina 2</p>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Titolo 3 &rarr;</h3>
+            <p>Card</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Titolo 2 &rarr;</h3>
+            <h3>Titolo 4 &rarr;</h3>
             <p>Card</p>
           </a>
 
